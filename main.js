@@ -44,7 +44,7 @@
         "",
         message
       ].join("\n");
-      var to = cfg.sessionEmail || "info@pceakitengela.org";
+      var to = cfg.sessionEmail || "info@pceakitengela.or.ke";
       window.location.href =
         "mailto:" + to +
         "?subject=" + encodeURIComponent("Membership enquiry - " + name) +

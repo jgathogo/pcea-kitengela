@@ -9,8 +9,8 @@ window.PCEA_CONFIG = {
   postalAddress: "P.O. Box 228-00242, Kitengela, Kenya",
   phone: "+254 710 287930",
   phoneHref: "tel:+254710287930",
-  email: "info@pceakitengela.org",
-  sessionEmail: "info@pceakitengela.org",
-  domain: "pceakitengela.org",
+  email: "info@pceakitengela.or.ke",
+  sessionEmail: "info@pceakitengela.or.ke",
+  domain: "pceakitengela.or.ke",
   minister: "Rev. John K. Muhinyia"
 };

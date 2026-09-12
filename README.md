@@ -1,6 +1,6 @@
 # PCEA Kitengela Parish website
 
-Official site of **PCEA Kitengela Parish** (Presbyterian Church of East Africa), meant for [https://pceakitengela.org](https://pceakitengela.org).
+Official site of **PCEA Kitengela Parish** (Presbyterian Church of East Africa), meant for [https://pceakitengela.or.ke](https://pceakitengela.or.ke).
 
 This is a static site: HTML, CSS, a little JavaScript. It is hosted on the same Hetzner VPS and Caddy pattern as [pceaburu.org](https://pceaburu.org).
 
@@ -34,25 +34,23 @@ cd ~/Documents/vps-infra
 
 ## DNS
 
-The old WordPress site at pceakitengela.org is down (critical error). Its A record still points at `178.162.196.51`.
+Official hostname: **pceakitengela.or.ke** (not `.org`). The old `.org` WordPress box is a different name.
 
-**Do not flip the official domain until mail is checked.** Current MX for `pceakitengela.org` points at the same host as the website. Moving only the A record can break `info@pceakitengela.org`.
+Check MX before pointing the website A records. If parish mail is `info@pceakitengela.or.ke`, leave MX / SPF / DKIM / DMARC alone.
 
-Until then, preview on `kitengela.gathogo.co.ke` (A record to `204.168.151.133`, DNS only).
+Until the official name is pointed here, preview on `kitengela.gathogo.co.ke` (A record to `204.168.151.133`, DNS only).
 
-When ready to use the official domain (grey cloud / DNS only):
+When ready (grey cloud / DNS only):
 
 | Type | Name | Content | Proxy |
 |------|------|---------|--------|
 | A | `@` | `204.168.151.133` | DNS only |
 | A | `www` | `204.168.151.133` | DNS only |
 
-Leave MX, SPF, DKIM and DMARC alone unless the Session has already moved mail.
-
 ## Facts used
 
 - Kajiado Presbytery; minister listed on [pcea.or.ke](https://pcea.or.ke/pcea-nairobi-region-presbyteries/): Rev. John K. Muhinyia
-- Email: info@pceakitengela.org
+- Email: info@pceakitengela.or.ke (change if the Session still uses another mailbox)
 - Postal: P.O. Box 228-00242, Kitengela (2026 Session audit letter)
 - Office phone: +254 710 287930 (public listing for Township Church)
 - History: 2001 outreach from Athi River; parish 24 Oct 2010; to Kajiado Presbytery 26 Oct 2014
