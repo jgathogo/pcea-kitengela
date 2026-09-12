@@ -4,7 +4,7 @@ Official site of **PCEA Kitengela Parish** (Presbyterian Church of East Africa),
 
 This is a static site: HTML, CSS, a little JavaScript. It is hosted on the same Hetzner VPS and Caddy pattern as [pceaburu.org](https://pceaburu.org).
 
-Kitengela is a **multi-congregation parish**. The Session covers six churches. The parish office is at **PCEA Kitengela Township Church**, Nairobi-Namanga Road.
+Kitengela is a **multi-congregation parish**. The Kirk Session covers six churches. The parish office is at **PCEA Kitengela Township Church**, Nairobi-Namanga Road.
 
 ## Congregations
 
